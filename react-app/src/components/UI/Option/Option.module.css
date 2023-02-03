@@ -1,0 +1,20 @@
+.option {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 8px;
+    transition: .3s all ease;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: black;
+    color: white;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
